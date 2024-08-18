@@ -61,17 +61,17 @@ document.getElementById('contactForm').addEventListener('submit', function(event
             <div class="contact-address">
                 <i class="fa fa-map fa-2x"></i>
                 <h5>{{ site.data.contact.location.title }}</h5>
-                <p>{{ site.data.contact.location.address }}</p>
+                <p><a href="{{ site.data.contact.location.link }}">{{ site.data.contact.location.address }}</a></p>
             </div>
             <div class="contact-address">
                 <i class="fa fa-phone fa-2x"></i>
                 <h5>{{ site.data.contact.phone.title }}</h5>
-                <p>{{ site.data.contact.phone.number }}</p>
+                <p></p><a href="tel:{{ site.data.contact.phone.number }}">{{ site.data.contact.phone.number }}</a>
             </div>
             <div class="contact-address">
                 <i class="fa fa-globe fa-2x"></i>
                 <h5>{{ site.data.contact.online.title }}</h5>
-                <p>Web: <a href="{{ site.data.contact.online.website }}" target="_blank">{{
+                <p>Web: <a href="{{ site.data.contact.online.link }}" target="_blank">{{
                         site.data.contact.online.website }}</a></p>
             </div>
         </div>

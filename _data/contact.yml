@@ -2,9 +2,11 @@ title: "Contact"
 location:
   title: "Location"
   address: "Albuquerque, New Mexico"
+  link: "#"
 phone:
   title: "Contact Number"
   number: "+11288378978"
 online:
   title: "Online"
-  website: "https://example.com"
+  website: "www.nexgenads.com"
+  link: "https://nexgenads.github.io/"
