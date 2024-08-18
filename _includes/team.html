@@ -1,0 +1,36 @@
+<section class="team-area padding-top wow fadeIn" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                <div class="area-title text-center">
+                    <h2>{{ site.data.home.team_section.title }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row team-slider no-margin">
+                {% for member in site.data.home.team_section.members %}
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 no-padding">
+                    <div class="team_common pos_relative">
+                        <div class="member_img">
+                            <a href="#"><img src="{{ member.image }}" alt="member image"></a>
+                        </div>
+                        <div class="member_info pos_relative transition_3s">
+                            <a href="#" class="d_inline pb_5">{{ member.name }}</a><br>
+                            <span class="d_block transition_3s">{{ member.position }}</span><br>
+                            <span class="line d_block transition_3s"></span><br>
+                            <a href="tel:{{ member.phone }}" class="mobile_number transition_3s">{{ member.phone }}</a>
+
+                            <ul class="social_contact">
+                                {% for social in member.social %}
+                                <li><a href="{{ social.link }}" title="{{ social.platform }}" target="_blank"><i class="fa {{ social.icon }}"></i></a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,147 @@
+<div class="container">
+    <div class="welcome-area">
+        <div class="welcome-text">
+            <h1 class="color_grad wow fadeInUp" data-wow-delay="0.2s">{{ site.data.home.heading }}</h1>
+            <p class="wow fadeInUp" data-wow-delay="0.3s">{{ site.data.home.subheading }}</p>
+            <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s">
+                <a class="left" href="{{ site.data.home.button_link }}">{{ site.data.home.button_text }}</a>
+            </div>
+        </div>
+        <div class="right-image">
+            <img src="{{ site.baseurl }}{{ site.data.home.image_url }}" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <section class="vision-area padding-100-40">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-8 col-md-offset-2">
+                <div class="vision-dots">
+                    <div class="dot mb-40px">
+                        <i class="material-icons pulse-shrink mdi mdi-checkbox-multiple-blank-outline"></i> 
+                        <h4 class="active mb-5px">Marketing</h4>
+                        <span class="quote-arrow"></span>
+                    </div>
+                    <div class="dot mb-40px">
+                        <i class="material-icons pulse-shrink mdi mdi-crown"></i>
+                        <h4 class="mb-5px">Branding</h4>
+                        <span class="quote-arrow"></span>
+                    </div>
+                    <div class="dot">
+                        <i class="material-icons pulse-shrink mdi mdi-tune"></i>
+                        <h4 class="mb-5px">Development</h4>
+                        <span class="quote-arrow"></span>
+                    </div>
+                    <div class="dot">
+                        <i class="material-icons pulse-shrink mdi mdi-file-tree"></i>
+                        <h4 class="mb-5px">Designing</h4>
+                        <span class="quote-arrow"></span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="owl-carousel vision_item">
+                    <div>
+                         <div class="tab_images">
+                          <img alt="img" src="assets/img/1.png">
+                      </div>
+                      <div class="tab_content">
+                          <h2 class="box-title"><a href="#">Marketing</a></h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+nisi ut 						aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur.</p>
+                          <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                              <a class="left" href="#">Know More</a>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <div class="tab_images">
+                          <img alt="img" src="assets/img/2.png">
+                      </div>
+                      <div class="tab_content">
+                          <h2 class="box-title"><a href="#">Branding</a></h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+nisi ut 						aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur.</p>
+                          <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                              <a class="left" href="#">Know More</a>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                        <div class="tab_images">
+                          <img alt="img" src="assets/img/3.png">
+                      </div>
+                      <div class="tab_content">
+                          <h2 class="box-title"><a href="#">Development</a></h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+nisi ut 						aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur.</p>
+                          <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                              <a class="left" href="#">Know More</a>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div>
+                        <div class="tab_images">
+                          <img alt="img" src="assets/img/4.png">
+                      </div>
+                      <div class="tab_content">
+                          <h2 class="box-title"><a href="#">Designing</a></h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+nisi ut 						aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur.</p>
+                          <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                              <a class="left" href="#">Know More</a>
+                          </div>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+           
+        </div>  
+    </div>
+</section> -->
+
+
+<section class="vision-area padding-100-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="vision-dots">
+                    {% for dot in site.data.home.dots %}
+                        <div class="dot mb-40px">
+                            <i class="material-icons pulse-shrink mdi {{ dot.icon }}"></i> 
+                            <h4 class="{% if dot.active %}active{% endif %} mb-5px">{{ dot.title }}</h4>
+                            <span class="quote-arrow"></span>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="owl-carousel vision_item">
+                    {% for item in site.data.home.items %}
+                        <div>
+                            <div class="tab_images">
+                                <img alt="img" src="{{ item.image }}">
+                            </div>
+                            <div class="tab_content">
+                                <h2 class="box-title"><a href="{{ item.link_url }}">{{ item.title }}</a></h2>
+                                <p>{{ item.description }}</p>
+                                <div class="home-button mt60 xs-mt40 wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    <a class="left" href="{{ item.link_url }}">{{ item.link_text }}</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>  
+    </div>
+</section>

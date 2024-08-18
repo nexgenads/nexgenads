@@ -1,0 +1,35 @@
+<section class="pricing-area pricingTbl_common pricingTbl7 padding-100-40" id="pricing">
+    <span class="floating triangle5"></span>
+    <span class="floating triangle6"></span>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                <div class="area-title text-center">
+                    <h2>{{ site.data.home.pricing_section.title }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for plan in site.data.home.pricing_section.plans %}
+            <div class="col-lg-4 col-md-6 col-sm-6 single_price">
+                <div class="single_tbl {{ plan.css_class }}">
+                    <div class="tbl_header pos_relative">
+                        <div class="overlay"></div>
+                        <h3 class="font24">{{ plan.name }}</h3>
+                        <h5>{{ plan.subtitle }}</h5>
+                        <h3 class="font24">{{ plan.price }}</h3>
+                    </div>
+                    <div class="tbl_body">
+                        <ul>
+                            {% for feature in plan.features %}
+                            <li>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <a href="{{ plan.button_link }}" class="read-more radius_50">{{ plan.button_text }}</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

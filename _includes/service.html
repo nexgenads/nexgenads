@@ -1,0 +1,26 @@
+<section class="features-top-area padding-100-20 wow fadeIn" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
+                <div class="area-title text-center">
+                    <h2 class="color_grad">{{ site.data.home.features_section.title }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for feature in site.data.home.features_section.features %}
+            <div class="col-md-6 col-lg-4 col-xl-4 single-service-widget features-block wow animated fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <i class="material-icons pulse-shrink mdi {{ feature.icon }}"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="box-title"><a href="{{ feature.link }}">{{ feature.title }}</a></h2>
+                        <p>{{ feature.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

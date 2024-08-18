@@ -31,6 +31,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: /blog/:title/
+
 
 
 # Exclude from processing.

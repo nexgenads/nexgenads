@@ -1,0 +1,35 @@
+<section class="blog-area padding-100-40 wow fadeIn" id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                <div class="area-title text-center">
+                    <h2>See our latest news</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row blog-slider">
+            {% for post in site.posts limit:3 %}
+            <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12">
+                <div class="single-blog-item mb50 shadow">
+                    <div class="blog-thumb">
+                        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+                    </div>
+                    <div class="post-item-content padding30">
+                        <div class="col-lg-9 col-md-12">
+                            <p><i class="fa fa-user"></i> <a href="#" class="link">{{ post.author }}</a></p>
+                            <a href="{{ site.baseurl }}{{ post.url }}">
+                                <h5>{{ post.title }}</h5>
+                            </a>
+                            <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+                        </div>
+                        <div class="col-lg-3 text-center">
+                            <h2 class="post-date" data-titles="{{ post.date | date: '%d' }}">{{ post.date | date: '%d' }}</h2>
+                            <span>{{ post.date | date: '%B' }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,241 @@
+# Hero section
+heading: "A Digital Marketing Agency"
+subheading: "We are creating ideas! You’ll find unique design with unique ideas. So come forward. We’re just looking for your opinion."
+button_text: "Know More"
+button_link: "##"
+image_url: "/assets/img/home/home-mockup.png"
+
+# Brand are 
+
+dots:
+  - icon: "mdi-checkbox-multiple-blank-outline"
+    title: "Marketing"
+    active: true
+  - icon: "mdi-crown"
+    title: "Branding"
+  - icon: "mdi-tune"
+    title: "Development"
+  - icon: "mdi-file-tree"
+    title: "Designing"
+
+items:
+  - image: "/assets/img/1.png"
+    title: "Marketing"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur."
+    link_text: "Know More"
+    link_url: "##"
+
+  - image: "/assets/img/2.png"
+    title: "Branding"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur."
+    link_text: "Know More"
+    link_url: "##"
+
+  - image: "/assets/img/3.png"
+    title: "Development"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur."
+    link_text: "Know More"
+    link_url: "##"
+
+  - image: "/assets/img/4.png"
+    title: "Designing"
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolore eu fugiat nulla pariatur."
+    link_text: "Know More"
+    link_url: "##"
+
+# Service 
+features_section:
+  title: "What We Provide?"
+  features:
+    - icon: "mdi-language-html5"
+      title: "DIGITAL MARKETING"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+    - icon: "mdi-checkbox-multiple-blank-outline"
+      title: "APPS DEVELOPMENT"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+    - icon: "mdi-file-tree"
+      title: "WEB DEVELOPMENT"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+    - icon: "mdi-tune"
+      title: "UI / UX DESIGN"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+    - icon: "mdi-package-variant"
+      title: "Unique UI Elements"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+    - icon: "mdi-crown"
+      title: "Simplified Design"
+      description: "Excepteur sint occaecat cupidatat non proidt, sunt in culpa qui. Nam porttitor"
+      link: "##"
+
+# About Us
+
+about_section:
+  image_1: "/assets/img/about/about-2.png"
+  image_2: "/assets/img/about/about-5.png"
+  goals:
+    - icon: "mdi-trending-up"
+      title: "Our mission 2"
+      description: "Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi."
+    - icon: "mdi-store"
+      title: "Our vision 1"
+      description: "Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi."
+    - icon: "mdi-format-line-style"
+      title: "Dedicated support low"
+      description: "Phasellus et elit eget purus efficitur dignissim. Sed eget pretium quam, non rutrum nisi."
+  content:
+    heading: "A Satisfied Customer is best for business big"
+    description: "We build your brand recognition and online reputation around keyword phrases your customers are already using (especially those that prove they’re ready to buy!) Our relationships with high-end websites mean we don’t pay for bad backlinks, nor do we acquire links that’ll harm your site or disappear within a month."
+    button_text: "Get a Free Website Audit "
+    button_link: "##"
+
+# TESTMONIAL AREA TWO
+testimonials_section:
+  title: "What Our Client Says?"
+  testimonials:
+    - image: "/assets/img/testmonial/testmonial-1.jpg"
+      quote: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Habildar 1"
+      position: "SEO Specialist, WallFactory"
+    - image: "/assets/img/testmonial/testmonial-2.jpg"
+      quote: "Separated they live 55 in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Thaowla"
+      position: "SEO Analyst, WallFactory 5"
+    - image: "/assets/img/testmonial/testmonial-3.jpg"
+      quote: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Kabila 2"
+      position: "Support Engr., WallFactory"
+    - image: "/assets/img/testmonial/testmonial-4.jpg"
+      quote: "Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Chiku"
+      position: "Designer, WallFactory"
+    - image: "/assets/img/testmonial/testmonial-5.jpg"
+      quote: "Separated they live in 66 Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Ketu"
+      position: "Developer, WallFactory"
+    - image: "/assets/img/testmonial/testmonial-6.jpg"
+      quote: "Separated they live in 99 Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with"
+      name: "Mr. Bala"
+      position: "SEO Analyst, WallFactory"
+
+# Pricing area
+pricing_section:
+  title: "We Provide The Best Plan."
+  plans:
+    - name: "Personal"
+      subtitle: "Monthly Plans"
+      price: "$00"
+      features:
+        - "Consectetuer adipiscing"
+        - "Sed diam nonummy nibh"
+        - "Euismod tincidunt"
+        - "Laoreet dolore magna"
+        - "Euismod tincidunt"
+        - "Sed diam nonummy nibh"
+        - "Consectetuer adipiscing"
+      button_text: "Get Started Now"
+      button_link: "##"
+      css_class: "tbl1"  # Custom class for CSS
+    - name: "Corporate"
+      subtitle: "Monthly Plans"
+      price: "$30"
+      features:
+        - "Consectetuer adipiscing"
+        - "Sed diam nonummy nibh"
+        - "Euismod tincidunt"
+        - "Laoreet dolore magna"
+        - "Euismod tincidunt"
+        - "Sed diam nonummy nibh"
+        - "Consectetuer adipiscing"
+      button_text: "Get Started Now"
+      button_link: "##"
+      css_class: "tbl2"  # Custom class for CSS
+    - name: "Business"
+      subtitle: "Monthly Plans"
+      price: "$150"
+      features:
+        - "Consectetuer adipiscing"
+        - "Sed diam nonummy nibh"
+        - "Euismod tincidunt"
+        - "Laoreet dolore magna"
+        - "Euismod tincidunt"
+        - "Sed diam nonummy nibh"
+        - "Consectetuer adipiscing"
+      button_text: "Get Started Now"
+      button_link: "##"
+      css_class: "tbl4"  # Custom class for CSS
+
+
+# We Have A Awesome Team
+team_section:
+  title: "We Have A Awesome Team."
+  members:
+    - name: "Jackie John Smith"
+      position: "Founder & CEO"
+      phone: "+84 846 250 592"
+      image: "/assets/img/team/1.png"
+      social:
+        - platform: "Facebook"
+          link: "#"
+          icon: "fa-facebook"
+        - platform: "Twitter"
+          link: "#"
+          icon: "fa-twitter"
+        - platform: "Vimeo"
+          link: "#"
+          icon: "fa-vimeo"
+        - platform: "Google-plus"
+          link: "#"
+          icon: "fa-google-plus"
+    - name: "Jackie John Smith"
+      position: "Founder & CEO"
+      phone: "+84 846 250 592"
+      image: "/assets/img/team/2.png"
+      social:
+        - platform: "Facebook"
+          link: "#"
+          icon: "fa-facebook"
+        - platform: "Twitter"
+          link: "#"
+          icon: "fa-twitter"
+        - platform: "Vimeo"
+          link: "#"
+          icon: "fa-vimeo"
+        - platform: "Google-plus"
+          link: "#"
+          icon: "fa-google-plus"
+    - name: "Jackie John Smith"
+      position: "Founder & CEO"
+      phone: "+84 846 250 592"
+      image: "/assets/img/team/3.png"
+      social:
+        - platform: "Facebook"
+          link: "#"
+          icon: "fa-facebook"
+        - platform: "Twitter"
+          link: "#"
+          icon: "fa-twitter"
+        - platform: "Vimeo"
+          link: "#"
+          icon: "fa-vimeo"
+        - platform: "Google-plus"
+          link: "#"
+          icon: "fa-google-plus"
+
+# See our latest news
+# all the company logo lsit 
+client_section:
+  clients:
+    - image: "/assets/img/client/client-6.png"
+    - image: "/assets/img/client/client-7.png"
+    - image: "/assets/img/client/client-8.png"
+    - image: "/assets/img/client/client-9.png"
+    - image: "/assets/img/client/client-10.png"
+    - image: "/assets/img/client/client-11.png"
+    - image: "/assets/img/client/client-12.png"
+    - image: "/assets/img/client/client-13.png"
+    - image: "https://seeklogo.com/images/C/coca-cola-circle-logo-A9EBD3B00A-seeklogo.com.png"

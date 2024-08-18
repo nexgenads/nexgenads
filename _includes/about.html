@@ -1,0 +1,37 @@
+<section class="about-area sky-gray-bg padding-100-30 relative wow fadeIn" id="about">
+    <div class="area-bg"></div>
+    <div class="container">
+        <div class="row flex-v-center">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="about-mockup right xs-mb50">
+                    <img src="{{ site.baseurl }}{{ site.data.home.about_section.image_1 }}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="about-content">
+                    {% for goal in site.data.home.about_section.goals %}
+                    <div class="single_goal pos_relative">
+                        <i class="material-icons icon-round mdi {{ goal.icon }}"></i>
+                        <h5 class="color_grad box-title">{{ goal.title }}</h5>
+                        <p>{{ goal.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row flex-v-center">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="about-content xs-mb50">
+                    <h3 class="mb30">{{ site.data.home.about_section.content.heading }}</h3>
+                    <p>{{ site.data.home.about_section.content.description }}</p>
+                    <a href="{{ site.data.home.about_section.content.button_link }}" class="read-more mt30 inline-block">{{ site.data.home.about_section.content.button_text }}</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                <div class="about-mockup">
+                    <img src="{{ site.baseurl }}{{ site.data.home.about_section.image_2 }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

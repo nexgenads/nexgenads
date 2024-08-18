@@ -1,0 +1,13 @@
+<section class="client-area padding-100-50 wow fadeIn">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="client-list client-slider">
+                    {% for client in site.data.home.client_section.clients %}
+                    <div class="single-client"><img src="{{ client.image }}" alt="Client logo"></div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

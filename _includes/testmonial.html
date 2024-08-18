@@ -1,0 +1,43 @@
+<section class="testimonials-style-two padding-100-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
+                <div class="area-title text-center">
+                    <h2>{{ site.data.home.testimonials_section.title }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="testmonial-style-two">
+                    <div id="testimonials-slider-pager" class="hidden-xs">
+                        {% for testimonial in site.data.home.testimonials_section.testimonials %}
+                            <a href="#" class="pager-item {% if forloop.first %}active{% endif %}" data-slide-index="{{ forloop.index0 }}">
+                                <img src="{{ testimonial.image }}" alt="" />
+                            </a>
+                        {% endfor %}
+                    </div>
+                    <div class="testimonials-slider">
+                        <ul class="slider">
+                            {% for testimonial in site.data.home.testimonials_section.testimonials %}
+                                <li class="slide-item">
+                                    <div class="single-testimonials">
+                                        <div class="author-image">
+                                            <img src="{{ testimonial.image }}" alt="" />
+                                        </div>
+                                        <div class="author-content">
+                                            <img src="/assets/img/quotes.png" alt="" />
+                                            <p>"{{ testimonial.quote }}"</p>
+                                            <h3>{{ testimonial.name }}</h3>
+                                            <p>{{ testimonial.position }}</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
