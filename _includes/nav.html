@@ -19,14 +19,16 @@
                 <nav class="navbar">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="{{ site.baseurl }}" class="navbar-brand"><img src="{{ site.baseurl }}/assets/img/logo.png" alt="logo"></a>
+                            <a href="{{ site.baseurl }}" class="navbar-brand">
+                                <img src="{{ site.baseurl }}{{ site.logo }}" alt="logo">
+                            </a>
                         </div>
                         <div class="mainmenu-and-right-button">
                             <div id="main-nav" class="stellarnav">
                                 <ul id="nav" class="nav navbar-nav">
                                     {% assign menu_items = site.data.menu %}
                                     {% for item in menu_items %}
-                                        <li{% if item.active %} class="active"{% endif %}>
+                                        <li {% if item.active %} class="active"{% endif %}>
                                             <a href="{{ item.url }}">{{ item.name }}</a>
                                         </li>
                                     {% endfor %}
