@@ -11,7 +11,7 @@
     <title>{{ site.data.meta.title }}</title>
 
     <!--====== FAVICON ICON =======-->
-    <link rel="shortcut icon" type="image/ico" href="{{ site.favicon }}" />
+    <link rel="shortcut icon" type="image/ico" href="{{ site.data.meta.favicon }}" />
 
     <!--====== STYLESHEETS ======-->
     <link href="{{ site.baseurl }}assets/css/plugins.css" rel="stylesheet">
@@ -19,9 +19,11 @@
     <link href="{{ site.baseurl }}assets/css/theme.css" rel="stylesheet">
     <link href="{{ site.baseurl }}assets/css/icons.css" rel="stylesheet">
 
+
+
     <!--====== MAIN STYLESHEETS ======-->
     <link href="{{ site.baseurl }}style.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/materialdesignicons.min.css">
     <link href="{{ site.baseurl }}assets/css/responsive.css" rel="stylesheet">
 
     <script src="{{ site.baseurl }}assets/js/vendor/modernizr-2.8.3.min.js"></script>

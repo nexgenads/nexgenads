@@ -1,3 +1,11 @@
+# site main logo
+logo: "/assets/img/logo.png"
+# site favicon
+favicon: "assets/img/favicon.png"
+
+# meta title description keywords
+title: NexGen Ads Media
+
 description: "NexGen Ads Media একটি প্রফেশনাল ডিজিটাল মার্কেটিং টিম। দীর্ঘদিন যাবত বাংলাদেশের বিভিন্ন F-commerce ব্যবসায়ীদের জন্য এই সমস্যার সমাধান নিয়ে কাজ করছে।
     প্রোডাক্ট রিসার্চ থেকে শুরু করে
     প্রোডাক্ট অনুযায়ী অডিয়েন্স বিল্ডাপ
@@ -5,5 +13,4 @@ description: "NexGen Ads Media একটি প্রফেশনাল ডি�
 
     আপনার বিজনেস কে বুস্ট আপ করতে আজই যোগাযোগ করুন
     "
-keywords: "App, Landing, Business, Onepage, Html, Business"
-title: NexGen Ads Media
+keywords: "NexGen Ads Media, Meta Ads, F-commerce, E-Commerce, Facebook Ads, Digital Marketing"

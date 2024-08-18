@@ -1,0 +1,88 @@
+<!--FOOTER AREA-->
+<footer
+  class="footer-area sky-gray-bg padding-bottom padding-top-50 relative wow fadeIn"
+>
+  <div class="footer-bottom-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-12 sm-center xs-center sm-mb40 xs-mb40">
+          <div class="footer-logo mb50">
+            <a href="{{ site.baseurl }}"
+              ><img
+                src="{{ site.baseurl }}{{ site.data.footer.logo }}"
+                alt="logo"
+            /></a>
+          </div>
+          <div class="footer-about">
+            <p>{{ site.data.footer.about }}</p>
+          </div>
+          <div class="footer-social mt20">
+            <ul class="social-icons" style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: left;">
+                {% for social in site.data.footer.social_media %}
+                    <li style="margin: 0 10px;">
+                        <a href="{{ social.url }}" target="_blank" title="{{ social.name }}" style="text-decoration: none; color: inherit; font-size: 20px;">
+                            <i class="fa {{ social.icon }}"></i>  <!-- Updated to use Font Awesome 4.7.0 classes -->
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+            
+            <style>
+                @media (max-width: 576px) {
+                    .social-icons {
+                        justify-content: center !important;
+                    }
+                }
+            </style>
+            
+            
+                    </div>
+        </div>
+        <div class="col-md-7 col-md-offset-1 col-xs-12">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-footer-widget">
+                <h4>Pages</h4>
+                <ul>
+                  {% for page in site.data.footer.pages %}
+                  <li><a href="{{ page.url }}">{{ page.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-footer-widget">
+                <h4>Service</h4>
+                <ul>
+                  {% for service in site.data.footer.services %}
+                  <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-footer-widget">
+                <h4>Legal</h4>
+                <ul>
+                    {% for service in site.data.footer.legal %}
+                    <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+                    {% endfor %}
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-copyright mt50 center">
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.data.footer.copyright_text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--FOOTER AREA END-->
+

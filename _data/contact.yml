@@ -1,0 +1,10 @@
+title: "Contact"
+location:
+  title: "Location"
+  address: "Albuquerque, New Mexico"
+phone:
+  title: "Contact Number"
+  number: "+11288378978"
+online:
+  title: "Online"
+  website: "https://example.com"
