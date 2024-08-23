@@ -5,14 +5,14 @@
 - name: "Service"
   url: "#features"
 
+- name: "Features"
+  url: "#features"
+
 - name: "About Us"
   url: "#about"
 
-- name: "Pricing"
-  url: "#pricing"
-
-- name: "Blog"
-  url: "#news"
+# - name: "Blog"
+#   url: "#news"
 
 - name: "Contact"
   url: "#contact"
