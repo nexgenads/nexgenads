@@ -3,13 +3,13 @@
   active: true
 
 - name: "Service"
-  url: "#features"
+  url: "#service"
 
-- name: "Features"
-  url: "#features"
+- name: "Client"
+  url: "#client"
 
-- name: "About Us"
-  url: "#about"
+- name: "Team"
+  url: "#team"
 
 # - name: "Blog"
 #   url: "#news"
