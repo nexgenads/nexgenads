@@ -1,12 +1,12 @@
 title: "Contact"
 location:
-  title: "Location"
-  address: "Albuquerque, New Mexico"
-  link: "#"
+  title: "আমাদের ঠিকানা"
+  address: "মিরপুর ডিওএইচএস"
+  link: "##"
 phone:
-  title: "Contact Number"
+  title: "ফোন নাম্বার"
   number: "+11288378978"
 online:
-  title: "Online"
+  title: "ওয়েবসাইট"
   website: "www.nexgenads.com"
   link: "https://nexgenads.github.io/"

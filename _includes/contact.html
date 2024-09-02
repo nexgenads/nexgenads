@@ -12,18 +12,28 @@
 <form id="contactForm" class=""
 action="https://docs.google.com/forms/d/e/1FAIpQLSdu69Kfa70-H4zxm3rZ9Ry5PSvNNss2sQ4SEeMAcRtToP79tw/formResponse">
 <div class="col-md-6">
-    <input class="form-control" type="text" placeholder="Name" name="entry.616816711" required>
+    <input class="form-control" type="text" placeholder="আপনার নাম" name="entry.616816711" required>
 </div>
 <div class="col-md-6">
-    <input type="email" class="form-control" placeholder="Enter email" name="entry.64650516" required>
+    <input type="email" class="form-control" placeholder="ইমেইল" name="entry.64650516" required>
 </div>
+<!-- <div class="col-md-6">
+    <input type="tel" class="form-control" placeholder="Enter phone number" name="entry.454315960" required>
+</div> -->
+
 <div class="col-md-12">
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" name="entry.1650772601" required></textarea>
+    <input type="tel" class="form-control" placeholder="মোবাইল নাম্বার" name="entry.454315960" 
+           pattern="^\d{11}$" required 
+           title="Please enter a valid phone number (11 digits)">
+</div>
+
+<div class="col-md-12">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="আপনার মতামত বিস্তারিতভাবে শেয়ার করুন" name="entry.1650772601" required></textarea>
 </div>
 <div class="col-md-12">
     <button class="read-more" type="submit">Submit</button>
 </div>
-<p id="formMessage" class="text-center text-sm mt-4"></p>
+<p id="formMessage" class="text-center text-sm mt-4; success-message"></p>
 </form>
 <!-- contact form -->
 
@@ -42,7 +52,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         mode: 'no-cors'
     })
     .then(() => {
-        formMessage.textContent = 'Thank you for your message!';
+        formMessage.textContent = 'আপনার মেসেজ আমরা পেয়েছি!';
         formMessage.classList.add('text-green-500');
         form.reset();
     })
