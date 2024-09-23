@@ -38,6 +38,36 @@ action="https://docs.google.com/forms/d/e/1FAIpQLSdu69Kfa70-H4zxm3rZ9Ry5PSvNNss2
 <!-- contact form -->
 
 <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        // Prevent the form from submitting right away
+        event.preventDefault();
+    
+        // Capture form data
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var number = document.getElementById('number').value;
+        var message = document.getElementById('message').value;
+    
+        // Push the data into the dataLayer
+        dataLayer.push({
+            'event': 'form_submit',
+            'form_id': 'contactForm',
+            'form_name': 'Contact Us',
+            'form_data': {
+                'name': name,
+                'email': email,
+                'number': number,
+                'message': message
+            }
+        });
+    
+        // Submit the form (remove this if you're doing an AJAX form submission)
+        event.target.submit();
+    });
+    </script>
+    
+
+<script>
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
