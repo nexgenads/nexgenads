@@ -1,18 +1,21 @@
-- name: "Home"
+- name: "হোম"
   url: "#home"
   active: true
 
-- name: "Service"
-  url: "#service"
+- name: "সার্ভিস সমূহ"
+  url: "#features"
 
-- name: "Client"
+# - name: "About Us"
+#   url: "#about"
+
+- name: "ক্লায়েন্ট"
   url: "#client"
-
-- name: "Team"
-  url: "#team"
 
 # - name: "Blog"
 #   url: "#news"
 
-- name: "Contact"
+- name: "টিম মেম্বার"
+  url: "#team"
+
+- name: "যোগাযোগ"
   url: "#contact"

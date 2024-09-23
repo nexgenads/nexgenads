@@ -1,46 +1,36 @@
-<!--====== USEFULL META ======-->
-<!-- Google Tag Manager -->
-<script>
-    (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', '{{ site.gtm_id | default: site.data.gtm.id }}');
-</script>
-<!-- End Google Tag Manager -->
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, user-scalable=no" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ site.data.meta.description }}" />
-<meta name="keywords" content="{{ site.data.meta.keywords }}" />
+    <!--====== USEFULL META ======-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.data.meta.description }}" />
+    <meta name="keywords" content="{{ site.data.meta.keywords }}" />
 
-<!--====== TITLE TAG ======-->
-<title>{{ site.data.meta.title }}</title>
+    <!--====== TITLE TAG ======-->
+    <title>{{ site.data.meta.title }}</title>
 
-<!--====== FAVICON ICON =======-->
-<link rel="shortcut icon" type="image/ico" href="{{ site.data.meta.favicon }}" />
+    <!--====== FAVICON ICON =======-->
+    <link rel="shortcut icon" type="image/ico" href="{{ site.data.meta.favicon }}" />
 
-<!--====== STYLESHEETS ======-->
-<link href="{{ site.baseurl }}assets/css/plugins.css" rel="stylesheet">
-<link href="{{ site.baseurl }}assets/css/plugins/bx-slider.css" rel="stylesheet">
-<link href="{{ site.baseurl }}assets/css/theme.css" rel="stylesheet">
-<link href="{{ site.baseurl }}assets/css/icons.css" rel="stylesheet">
+    <!--====== STYLESHEETS ======-->
+    <link href="{{ site.baseurl }}assets/css/plugins.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}assets/css/plugins/bx-slider.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}assets/css/theme.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}assets/css/icons.css" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap" rel="stylesheet">
 
+    <!--====== MAIN STYLESHEETS ======-->
+    <link href="{{ site.baseurl }}style.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}assets/css/materialdesignicons.min.css">
+    <link href="{{ site.baseurl }}assets/css/responsive.css" rel="stylesheet">
 
-<!--====== MAIN STYLESHEETS ======-->
-<link href="{{ site.baseurl }}style.css" rel="stylesheet">
-<link rel="stylesheet" href="{{ site.baseurl }}assets/css/materialdesignicons.min.css">
-<link href="{{ site.baseurl }}assets/css/responsive.css" rel="stylesheet">
-
-<script src="{{ site.baseurl }}assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-<!--[if lt IE 9]>
+    <script src="{{ site.baseurl }}assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    
+    <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->

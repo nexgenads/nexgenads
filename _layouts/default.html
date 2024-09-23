@@ -1,13 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<head>
+    <head>
+    <!-- Google Tag Manager -->
+  {% include gtm.html %}
+  <!-- End Google Tag Manager -->
     {%- include head.html -%}
 </head>
 
 
-<body class="home-two" data-spy="scroll" data-target=".mainmenu-area" data-offset="90">
-    {%- include tracking.html -%}
+<body class="home-two" data-spy="scroll" data-target=".mainmenu-area" data-offset="90"></body>
+<!-- Google Tag Manager (noscript) -->
+{% include gtm_noscript.html %}
+<!-- End Google Tag Manager (noscript) -->
+ 
 {%- include nav.html -%}
 {{ content }}
 

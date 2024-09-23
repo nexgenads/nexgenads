@@ -3,52 +3,53 @@ about: "NexGen Ads Media একটি প্রফেশনাল ডিজি�
 
 pages:
   - name: "How we work"
-    url: "##"
+    url: "#"
   - name: "About us"
-    url: "##"
+    url: "#"
   - name: "Contact us"
-    url: "##"
+    url: "#"
   - name: "Media"
-    url: "##"
+    url: "#"
 
 services:
   - name: "Content Writing"
-    url: "##"
+    url: "#"
   - name: "Link Building"
-    url: "##"
+    url: "#"
   - name: "Content Optimization"
-    url: "##"
+    url: "#"
   - name: "Keyword Planning"
-    url: "##"
+    url: "#"
   - name: "Website analysis"
-    url: "##"
+    url: "#"
 
 legal:
   - name: "Terms of Service"
-    url: "##"
+    url: "#"
   - name: "Security Policy"
-    url: "##"
+    url: "#"
   - name: "Privacy Policy"
-    url: "##"
+    url: "#"
   - name: "Media"
-    url: "##"
+    url: "#"
 
 social_media:
   - name: "Facebook"
-    url: "https://www.facebook.com/nexgenads"
+    url: "https://www.facebook.com/yourpage"
     icon: "fa-facebook"  # Font Awesome 4.7.0 icon class
 
   - name: "Twitter"
-    url: "##"
+    url: "https://www.twitter.com/yourprofile"
     icon: "fa-twitter"  # Font Awesome 4.7.0 icon class
 
   - name: "LinkedIn"
-    url: "##"
+    url: "https://www.linkedin.com/yourprofile"
     icon: "fa-linkedin"  # Font Awesome 4.7.0 icon class
 
   - name: "Instagram"
-    url: "#"
+    url: "https://www.instagram.com/yourprofile"
     icon: "fa-instagram"  # Font Awesome 4.7.0 icon class
 
 
-copyright_text: "NexGen Ads Media All Right Reserved."
+copyright_site: "NexGen Ads Media"
+copyright_text: "All Right Reserved."
