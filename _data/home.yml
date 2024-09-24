@@ -182,7 +182,7 @@ team_section:
   members:
     - name: "Md J Nayem"
       position: "Senior Executive"
-      phone: "+84 846 250 592"
+      # phone: "+84 846 250 592"
       image: "/assets/img/team/1.png"
       social:
         - platform: "Facebook"
@@ -199,7 +199,7 @@ team_section:
         #   icon: "fa-google-plus"
     - name: "Shanto Islam Rabby"
       position: "Jr Executive"
-      phone: "+84 846 250 592"
+      # phone: "+84 846 250 592"
       image: "/assets/img/team/2.png"
       social:
         - platform: "Facebook"
@@ -216,7 +216,7 @@ team_section:
         #   icon: "fa-google-plus"
     - name: "Ahmed Sharif Khan Noor"
       position: "Jr Executive"
-      phone: "+88 017 447 500 96"
+      # phone: "+88 017 447 500 96"
       image: "/assets/img/team/3.png"
       social:
         - platform: "Facebook"
